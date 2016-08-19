@@ -1,5 +1,5 @@
 <?php
-
+echo "autpload";
 /**
  * This file is a backwards compatible autoloader for SimpleSAMLphp.
  * Loads the Composer autoloader.
