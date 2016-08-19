@@ -4,8 +4,6 @@ echo "incluid php";
  * Disable magic quotes if they are enabled.
  */
 
- error_reporting(E_ALL);
- ini_set('display_errors', 'On');
 function removeMagicQuotes()
 {
     if (get_magic_quotes_gpc()) {
@@ -32,8 +30,8 @@ if (version_compare(PHP_VERSION, '5.4.0', '<')) {
 }
 echo "libbbbb111";
 // initialize the autoloader
-require_once(dirname(dirname(__FILE__)).'/lib/_autoload.php');
-echo "libbbbb";
+require_once(dirname(dirname(__FILE__)).'/simplesamlphp/lib/_autoload.php');
+echo "libbbbb2222";
 // enable assertion handler for all pages
 SimpleSAML_Error_Assertion::installHandler();
 
