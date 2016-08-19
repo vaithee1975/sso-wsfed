@@ -1,4 +1,6 @@
 <?php
+ error_reporting(E_ALL);
+ ini_set('display_errors', 'On');
 echo "autpload";
 /**
  * This file is a backwards compatible autoloader for SimpleSAMLphp.
