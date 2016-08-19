@@ -1,5 +1,5 @@
 <?php
-require_once (dirname(__FILE__) . '/secureResource.php'); //sdfsdfs
+require_once (dirname(__FILE__) . 'secureResource.php'); //sdfsdfs
 ?>
 <!DOCTYPE html>
 <html>
