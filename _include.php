@@ -1,5 +1,5 @@
 <?php
-
+echo "incluid php";
 /**
  * Disable magic quotes if they are enabled.
  */
@@ -30,7 +30,7 @@ if (version_compare(PHP_VERSION, '5.4.0', '<')) {
 
 // initialize the autoloader
 require_once(dirname(dirname(__FILE__)).'/lib/_autoload.php');
-
+echo "libbbbb";
 // enable assertion handler for all pages
 SimpleSAML_Error_Assertion::installHandler();
 
