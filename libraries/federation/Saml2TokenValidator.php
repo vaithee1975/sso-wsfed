@@ -1,4 +1,5 @@
 <?php
+require_once (dirname(__FILE__) . ‘../simplesamlphp/lib/_autoload.php’);
 require_once (dirname(__FILE__) . '/Claim.php');
 
 class Saml2TokenValidator {
