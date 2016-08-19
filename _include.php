@@ -3,6 +3,9 @@ echo "incluid php";
 /**
  * Disable magic quotes if they are enabled.
  */
+
+ error_reporting(E_ALL);
+ ini_set('display_errors', 'On');
 function removeMagicQuotes()
 {
     if (get_magic_quotes_gpc()) {
