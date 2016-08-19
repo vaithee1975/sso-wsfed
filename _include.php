@@ -27,7 +27,7 @@ function removeMagicQuotes()
 if (version_compare(PHP_VERSION, '5.4.0', '<')) {
     removeMagicQuotes();
 }
-
+echo "libbbbb111";
 // initialize the autoloader
 require_once(dirname(dirname(__FILE__)).'/lib/_autoload.php');
 echo "libbbbb";
