@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<issuers>
-	<issuer name="awesomecomputers.onmicrosoft.com" displayName="Vaithee SSO"
-		realm="spn:7a8ed149-cbb3-4993-b1c0-82fe1c82166e" />
-	
-</issuers>
