@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <issuers>
-	<issuer name="awesomecomputers.onmicrosoft.com" displayName="Awesome Computers"
-		realm="spn:d184f6dd-d5d6-44c8-9cfa-e2d630dea392@495c4a5e-38b7-49b9-a90f-4c0050b2d7f7" />
-	<issuer name="treyresearchinc.onmicrosoft.com" displayName="Trey Research Inc."
-		realm="spn:d184f6dd-d5d6-44c8-9cfa-e2d630dea392@13292593-4861-4847-8441-6da6751cfb86" />
+	<issuer name="awesomecomputers.onmicrosoft.com" displayName="Vaithee SSO"
+		realm="spn:7a8ed149-cbb3-4993-b1c0-82fe1c82166e" />
+	
 </issuers>
