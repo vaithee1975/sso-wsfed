@@ -18,15 +18,17 @@ $config = array(
 
         // The entity ID of this SP.
         // Can be NULL/unset, in which case an entity ID is generated based on the metadata URL.
-        'entityID' => null,
+        'entityID' => 'http://sso-wsfed.azurewebsites.net',
 
         // The entity ID of the IdP this should SP should contact.
         // Can be NULL/unset, in which case the user will be shown a list of available IdPs.
-        'idp' => null,
+        'idp' => 'https://sts.windows.net/de1e8318-c4bc-49b8-8963-e822fdc795c4/',
 
         // The URL to the discovery service.
         // Can be NULL/unset, in which case a builtin discovery service will be used.
         'discoURL' => null,
+        'NameIDFormat' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:persistent',
+        'simplesaml.nameidattribute' => 'eduPersonTargetedID',
 
         /*
          * WARNING: SHA-1 is disallowed starting January the 1st, 2014.
