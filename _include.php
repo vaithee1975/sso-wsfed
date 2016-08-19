@@ -30,7 +30,7 @@ if (version_compare(PHP_VERSION, '5.4.0', '<')) {
 }
 echo "libbbbb111";
 // initialize the autoloader
-require_once(dirname(dirname(__FILE__)).'/simplesamlphp/lib/_autoload.php');
+require_once(dirname(dirname(__FILE__)).'simplesamlphp/lib/_autoload.php');
 echo "libbbbb2222";
 // enable assertion handler for all pages
 SimpleSAML_Error_Assertion::installHandler();
